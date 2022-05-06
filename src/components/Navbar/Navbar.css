@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 30px;
+}
+.navbar .nav-image{
+    width:30%;
+}
+.navbar .nav-image img{
+    width: 60%;
+    margin-left: 10px;
+}
+.navbar .nav-links .nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-links .nav-list li{
+    list-style: none;
+}
+.navbar .nav-links .nav-list .nav-items{
+    margin: 10px 30px;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .nav-links .nav-list .nav-items .nav-icons{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
